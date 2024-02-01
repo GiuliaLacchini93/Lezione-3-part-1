@@ -1,0 +1,56 @@
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    margin: center;
+    background-color: rgb(210, 185, 185);
+}
+img {
+    display: block;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin: auto;
+
+
+  }
+#container{
+    width: 100%;
+    max-width: auto;
+    margin: auto;
+    border: 1px solid;
+    text-align: center;
+
+}
+
+.box-grid {
+    width: 610px;
+    height: 610px;
+    border:1px solid darkred;
+    margin: 10px auto;
+    padding: 30px;
+}
+
+.card{
+    width: 150px;
+    height: 150px;
+    border: 2px solid brown;
+    display: inline-block;
+    margin: 3px;
+}
+
+.card h2 {
+    color: brown;
+}
+
+.card:hover{
+    background-color: rgb(186, 144, 144);
+}
+.input:focus{
+    background-color: brown;
+}
+
+.box-grid:hover .card:not(:hover){
+    opacity: 0.3;
+}
+
+.box-grid div:last-child {
+    color: blue;
+}
